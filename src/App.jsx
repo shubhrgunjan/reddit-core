@@ -252,7 +252,7 @@ export default function App() {
 
     const type = searchFor === 'submission' ? 'submission' : 'comment';
     const params = new URLSearchParams({
-      size: '50',
+      size: '200',
       sort: sortOrder,
       sort_type: sortBy,
     });
